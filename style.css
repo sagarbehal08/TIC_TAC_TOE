@@ -1,0 +1,53 @@
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Merriweather', serif;
+    background-color:#E4F9F5;
+}
+h1,h2{
+    color:#11999e;
+    letter-spacing: 2px;;
+}
+
+table#game td{
+
+    background-color: #30e3ca;
+    height:180px;
+    width:180px;
+    border: solid #11999e 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60pt;
+    color:#E4F9F5;
+    
+}
+
+
+button#restart {
+    padding: 10px;
+    background-color: #11999e;
+    font-size: 20pt;
+    color: white;
+    border-radius: 50px;
+    letter-spacing: 2px;;
+    border:none;
+    box-shadow: none;
+    outline: none;
+
+    
+}
+button#restart:hover{
+    box-shadow: 2px 2px 15px #30e3ca ;
+}
+.heading{
+    display: inline-block;
+    position:absolute;
+    top:220px;
+    left:180px;
+}
+.Main-table{
+    display:inline-block;
+    position: absolute;
+    right:40px;
+    top:20px;
+}
